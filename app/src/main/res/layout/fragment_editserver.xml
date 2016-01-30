@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:hint="Server name"
+        android:width="300dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ipAddress"
+        android:layout_below="@+id/serverName"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:hint="IP address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverPort"
+        android:layout_below="@+id/ipAddress"
+        android:hint="Server&apos;s port"
+        android:layout_alignStart="@+id/ipAddress"
+        android:width="300dp"
+        android:text="8080" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit server"
+        android:id="@+id/editServer"
+        android:layout_below="@+id/serverPort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/serverPort"
+        android:layout_alignEnd="@+id/serverPort"
+        android:layout_alignStart="@+id/serverPort"
+        android:hint="Username" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:hint="Password" />
+
+</RelativeLayout>
