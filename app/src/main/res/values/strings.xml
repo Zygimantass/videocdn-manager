@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Flussonic status</string>
+    <string name="app_name">VideoCDN Manager</string>
     <string-array name="navigation_drawer_items_array">
         <item>Servers</item>
-        <item>Settings</item>
+        <item>About</item>
     </string-array>
 
     <string name="drawer_open">Open navigation drawer</string>
